@@ -1,6 +1,6 @@
-# UdachnyMC
+# UdachnyMC WebApp
 
-A java application which provides a API REST to execute commands on a minecraft server.
+A Next.js powered application which provides a frontend for the UdachnyMC API REST.
 
 DISCLAIMER: The front is an MVP that is not safe or pretty and will probably have a few functional bugs.
 
@@ -10,53 +10,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-#### Docker 
-
-You need to download docker from the package manager of your distribution, from brew if you use MacOS or [from here](https://docs.docker.com/get-docker/) if you use Windows.
-
-#### Docker-compose 
-
-You only need to download docker-compose from the package manager of your distribution or see how to install it [from this link](https://docs.docker.com/compose/install/) if you use MacOS or Windows. 
+//TODO
 
 ### Build it
 
-To build the docker containers just call:
-
-```bash
-     docker-compose build 
-```
+//TODO
 
 ### Run it 
 
-To run just the API call:
-
-```bash
-     docker-compose up
-```
-
-WIP: To run the API with the front call:
-
-```bash
-     docker-compose --profile front up
-```
-
-The first time the containers go up they will create a new directory where the minecraft server will generate it's files, called server. As you will probably known the minecraft server has the eula.txt file which allow the users to agree with [the minecraft eula policy](https://account.mojang.com/documents/minecraft_eula). In order to run the server and have the whole infraestucture running you will need to change the value eula to true like shown:
-
-```
-#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).
-#Mon Jan 03 18:51:55 UTC 2022
-     eula=true
-```
-
-## Connect to the Minecraft server
-
-The server will use the default port: 25565 so if your are running this in your machine just enter your localhost: 127.0.0.1 and if this is running on a server just enter the server ip.
+//TODO
 
 ## Contributing
 
-Feel free to fork it and made pull request if you think that your own version is better or adds new functionalities. You can also help with any open issues or add new ones.
-
-You should probably check the [DevGuide](docs/DevGuide).
+//TODO
 
 ## Authors
 

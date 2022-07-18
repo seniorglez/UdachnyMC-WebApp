@@ -1,90 +1,30 @@
-##############################
-## Java
-##############################
-.mtj.tmp/
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-hs_err_pid*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-##############################
-## Maven
-##############################
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-pom.xml.bak
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-##############################
-## Gradle
-##############################
-bin/
-build/
-.gradle
-.gradletasknamecache
-gradle-serverController.setting
-!gradle-wrapper.jar
+# testing
+/coverage
 
-##############################
-## IntelliJ
-##############################
-out/
-.idea/
-.idea_modules/
-*.iml
-*.ipr
-*.iws
+# next.js
+/.next/
+/out/
 
-##############################
-## Eclipse
-##############################
-.settings/
-bin/
-tmp/
-.metadata
-.classpath
-.project
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-.factorypath
+# production
+/build
 
-##############################
-## NetBeans
-##############################
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-
-##############################
-## Visual Studio Code
-##############################
-.vscode/
-.code-workspace
-
-##############################
-## OS X
-##############################
+# misc
 .DS_Store
 
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-#My own stuff
-
-/ServerControler/settings.xml
-/server
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
